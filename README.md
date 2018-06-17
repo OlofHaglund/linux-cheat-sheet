@@ -91,3 +91,16 @@ List of some of the common and most helpfull commands
 | cmd1 && cmd2            | First run cmd1, if cmd1 is successful then run cmd2       |
 | cmd1 &#124;&#124; cmd2  | first rund cmd1, if cmd1 fails then run cmd2              |
 | cmd &                   | Run cmd in a subshell/background                          |
+
+## VIM
+Some of the common and most usefull shortcuts
+
+| command                 | Description                                               |
+| ---                     | ---                                                       |
+| :help `keyword`         | Open help for keyword                                     |
+| :saveas `file`          | save file as                                              |
+| :w                      | write/save the file                                       |
+| :w !sudo tee %          | write/save out the current file using sudo, usefull then forgot using sudo opening the file |
+| :wq                     | write/save and quit                                       |
+| :q                      | quit, fails if their is any changes not saved             |
+| :q!                     | force quit                                                |
